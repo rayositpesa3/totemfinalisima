@@ -6,7 +6,9 @@ import { CheckCircle, Clock, Home } from 'lucide-react';
 const WaitingMessage = ({ floor, onHome }) => {
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center p-8">
+    <div className="min-h-screen flex items-center justify-center p-8" style={{
+      background: '#4A90E2'
+    }}>
       <Card className="w-full max-w-2xl shadow-2xl border-0">
         <CardContent className="p-12 text-center">
           <div className="w-24 h-24 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-8 animate-pulse">
