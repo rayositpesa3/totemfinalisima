@@ -33,10 +33,9 @@ const OtherServices = ({ onBack, onServiceSelect, isLoading }) => {
 
   return (
     <div className="min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center p-8" style={{
-      backgroundImage: `linear-gradient(135deg, rgba(99, 179, 237, 0.9), rgba(56, 178, 172, 0.9)), url('/background-reference.png')`,
-      backgroundColor: '#63b3ed'
+      background: '#4A90E2'
     }}>
-      <Card className="w-full max-w-2xl shadow-2xl border-0">
+      <Card className="w-full max-w-2xl shadow-2xl border-0 bg-white">
         <CardHeader className="text-center pb-6">
           <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
             <img 
