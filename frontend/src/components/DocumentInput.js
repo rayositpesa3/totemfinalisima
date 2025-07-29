@@ -119,9 +119,12 @@ const DocumentInput = ({ onBack, onSubmit, title, isLoading }) => {
 
           {/* Display del número ingresado */}
           <div className="mb-8">
-            <div className="bg-gray-100 border-2 border-gray-300 rounded-lg p-4 text-center">
-              <div className="text-3xl font-mono text-gray-800 min-h-[40px] flex items-center justify-center">
+            <div className="border-2 border-gray-300 rounded-lg p-4 text-center" style={{
+              backgroundColor: '#3A7BC8'
+            }}>
+              <div className="text-3xl font-mono text-white min-h-[40px] flex items-center justify-center">
                 {document || ''}
+              </div>
               </div>
             </div>
           </div>
