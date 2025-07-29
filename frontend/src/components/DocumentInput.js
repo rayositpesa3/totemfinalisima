@@ -125,7 +125,6 @@ const DocumentInput = ({ onBack, onSubmit, title, isLoading }) => {
               <div className="text-3xl font-mono text-white min-h-[40px] flex items-center justify-center">
                 {document || ''}
               </div>
-              </div>
             </div>
           </div>
 
