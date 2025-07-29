@@ -104,7 +104,9 @@ const DocumentInput = ({ onBack, onSubmit, title, isLoading }) => {
           </div>
         </div>
 
-        <CardContent className="bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 p-8 rounded-b-lg">
+        <CardContent className="p-8 rounded-b-lg" style={{
+          background: '#4A90E2'
+        }}>
           {/* Título */}
           <div className="text-center mb-8">
             <h1 className="text-white text-2xl font-semibold">
