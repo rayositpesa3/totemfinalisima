@@ -128,8 +128,8 @@ const DocumentInput = ({ onBack, onSubmit, title, isLoading }) => {
 
           {error && (
             <Alert variant="destructive" className="mb-6">
-              <AlertCircle className="h-4 w-4" />
-              <AlertDescription>{error}</AlertDescription>
+              <AlertCircle className="h-6 w-6" />
+              <AlertDescription className="text-xl font-bold">{error}</AlertDescription>
             </Alert>
           )}
 
