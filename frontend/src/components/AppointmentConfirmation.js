@@ -37,7 +37,9 @@ const AppointmentConfirmation = ({ patient, onBack, onConfirm, isLoading }) => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center p-8">
+    <div className="min-h-screen flex items-center justify-center p-8" style={{
+      background: '#4A90E2'
+    }}>
       <Card className="w-full max-w-2xl shadow-2xl border-0">
         <CardHeader className="text-center pb-6">
           <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
