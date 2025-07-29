@@ -72,7 +72,9 @@ const DocumentInput = ({ onBack, onSubmit, title, isLoading }) => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 flex items-center justify-center p-8">
+    <div className="min-h-screen flex items-center justify-center p-8" style={{
+      background: '#4A90E2'
+    }}>
       <Card className="w-full max-w-2xl shadow-2xl border-0 bg-white">
         {/* Header del hospital */}
         <div className="bg-white px-6 py-4 rounded-t-lg">
